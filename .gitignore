@@ -1,0 +1,57 @@
+# ======================
+# Node.js (backend + frontend)
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+
+# Build folders
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ======================
+# Python (resume_api)
+# ======================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / temp
+.ipynb_checkpoints/
+
+# ======================
+# ML Models (important)
+# ======================
+*.pkl
+
+# ======================
+# Uploads (user data)
+# ======================
+uploads/
+
+# ======================
+# VS Code / Editor
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Misc
+# ======================
+*.swp
+*.swo
